@@ -5,6 +5,8 @@
 using namespace std;
 
 int main() {
+      restart:
+
     cout << "********************************" << endl;
     cout << "         TEST MARKER            " << endl;
     cout << "********************************" << endl;
@@ -167,6 +169,13 @@ int main() {
                     cout << "Student ID: " << student_id << " not found." << endl; 
                 }
                 break;
+            }
+            case 3:{
+            // Restart the program
+                cout << "\nYou have chosen to restart the program." << endl;
+                cout << "The program will now restart...\n\n";
+                goto restart; // Jump to the restart label
+                break;  
             }
 
             default: 
