@@ -174,7 +174,7 @@ int main() {
             // Restart the program
                 cout << "\nYou have chosen to restart the program." << endl;
                 cout << "The program will now restart...\n\n";
-                goto restart; // Jump to the restart label
+                goto restart; // Jump to the restart label, which is at the first of this function
                 break;  
             }
 
